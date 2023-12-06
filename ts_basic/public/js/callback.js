@@ -1,13 +1,14 @@
+"use strict";
 var total = 0;
 function handleRandom(count) {
-    var randomNumber = Math.random();
-    var message = "".concat(count, ":").concat(randomNumber);
+    const randomNumber = Math.random();
+    const message = `${count}:${randomNumber}`;
     total = total + count;
     console.log(message);
 }
 function start(callback) {
     var count = 0;
-    var timer = setInterval(function () {
+    const timer = setInterval(() => {
         count++;
         if (count >= 5)
             clearInterval(timer);

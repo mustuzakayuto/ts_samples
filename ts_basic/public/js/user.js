@@ -7,6 +7,6 @@ var user = {
         last: "Tokyo",
     },
     email: "test@test",
-    isActive: true
+    isActive: true,
 };
 console.log(user);

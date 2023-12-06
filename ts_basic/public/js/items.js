@@ -19,14 +19,14 @@ var item3 = {
 var items = [item1, item2, item3];
 console.log(items);
 var borderPrice = 350;
-var fillterItems = items.filter(function (item) { return item.price <= borderPrice; });
+var fillterItems = items.filter((item) => item.price <= borderPrice);
 console.log(fillterItems);
 function calculateTotalPrice(price, amount) {
     var totalprice = price * amount;
     return totalprice;
 }
 function findItem(id) {
-    var result = items.find(function (item) { return item.id == id; });
+    var result = items.find((item) => item.id == id);
     return result;
 }
 var amount = 5;
