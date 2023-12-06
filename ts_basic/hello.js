@@ -1,3 +1,4 @@
+"use strict";
 // tsc ファイル名 コンパイル
 // ts-node hello　実行
 var message = "Hello!!!!";
